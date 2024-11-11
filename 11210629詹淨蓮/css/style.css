@@ -1,0 +1,67 @@
+.bg {
+  background-color: #ffffff;
+}
+
+.wwy_nav a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  float: right;
+}
+
+image,
+ul,
+li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Services,
+p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+image {
+  width: 35.25px;
+  height: 35.25px;
+  top: 0.35px;
+  left: 0.35px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+img.floatright {
+  float: right;
+  margin: 5px;
+}
+
+.Services,
+.incube {
+  background-color: #b9ff66;
+  width: 178px;
+  height: 51px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.incube {
+  width: 221px;
+  height: 76px;
+}
+
+.cube {
+  width: 600px;
+  height: 310px;
+  background-color: #f3f3f3;
+  padding: 50px 0px 0px 0px;
+  gap: 0px;
+  border-radius: 45px;
+  border: 1px;
+  border-color: #191a23;
+  justify: space-between;
+
+  display: inline-block;
+  vertical-align: baseline;
+}
