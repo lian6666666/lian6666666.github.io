@@ -1,0 +1,19 @@
+/*position: fixed的時候記得
+1.讓圖層保持在最上面
+2.調整寬度，不然有多少東西就會有多寬*/
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  z-index: 1000;
+}
+
+img {
+  width: 100%;
+}
+
+.row img {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
