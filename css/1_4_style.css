@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+TC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Noto Serif TC", serif;
+  font-weight: bolder;
+  background-image: url(../img/1_0_bg_img.png);
+  background-size: 100vw;
+  background-repeat: repeat-y;
+  background-position: center;
+}
+.main_p {
+  margin: 100px auto;
+  display: block;
+  text-align: center;
+  font-size: 32pt;
+  width: 100vw;
+  height: 300px;
+  padding: 40px;
+  color: #5c6652;
+}
+.p_text {
+  margin: 40px 0;
+}
+.middle_foot {
+  display: block;
+  width: 184px;
+  height: 446px;
+  margin: auto;
+  position: relative;
+}
+.foot {
+  display: block;
+  width: 70px;
+  height: 78px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.foot1 {
+  background-image: url(../img/1_4_middle_foot1.png);
+  top: 0;
+  left: 0;
+  opacity: 0%;
+  animation: opcitychange 3s infinite;
+}
+.foot2 {
+  background-image: url(../img/1_4_middle_foot2.png);
+  top: 200px;
+  left: 114px;
+  opacity: 0%;
+  animation: opcitychange2 3s infinite;
+}
+.foot3 {
+  background-image: url(../img/1_4_middle_foot3.png);
+  top: 400px;
+  left: 0;
+  opacity: 0%;
+  animation: opcitychange3 3s infinite;
+}
+@keyframes opcitychange {
+  0% {
+    opacity: 0%;
+  }
+  20% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  80% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+@keyframes opcitychange2 {
+  0% {
+    opacity: 0%;
+  }
+  20% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  80% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+@keyframes opcitychange3 {
+  0% {
+    opacity: 0%;
+  }
+  20% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  80% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+.yl_result_card {
+  width: 1320px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 200px auto;
+}
+.yl_result_card_left {
+  position: relative;
+  padding: 5px;
+}
+.yl_result_card_left img {
+  border-radius: 20px;
+  position: absolute;
+  top: 80px;
+  width: 318px;
+  height: 447px;
+}
+.yl_result_card_left p {
+  display: block;
+  text-align: center;
+  width: 136px;
+  height: 132px;
+  font-size: 30pt;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  color: #fffbe7;
+  background-color: #5c6652;
+  border-radius: 20px 20px 0 0;
+}
+.food_title {
+  font-weight: bold;
+  font-size: 32pt;
+  color: #5c6652;
+}
+.food_text {
+  font-size: 24pt;
+  color: #5c6652;
+  font-weight: lighter;
+}
+.food_title1 {
+  margin: 0 30px 0 0;
+  font-size: 40pt;
+  color: #5c6652;
+}
+.food_type p {
+  font-size: 24pt;
+  color: #5c6652;
+}
+
+.food_title1,
+.food_type p {
+  display: inline-block;
+  vertical-align: center;
+  font-weight: bolder;
+}
+.food_type {
+  margin: 0 0 73px 0;
+}
+.comments_title {
+  margin: 100px auto;
+}
+.comments_title {
+  display: block;
+  width: 1320px;
+  height: 92px;
+  background-image: url(../img/1_4_title_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+  text-align: center;
+  padding: 12px 406px 18px 432px;
+  font-size: 32pt;
+  letter-spacing: 22pt;
+  color: #fffbe7;
+}
+
+.comments_text {
+  font-size: 40pt;
+  font-weight: bolder;
+  text-align: center;
+  margin: 100px auto;
+  color: #5c6652;
+}
+
+.final_btn {
+  width: 974px;
+  height: 88px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto 300px auto;
+}
+.start_btn {
+  width: 33%;
+}
+.start_btn a {
+  color: #5c6652;
+  text-decoration: none;
+  display: block;
+  width: 243px;
+  height: 88px;
+  background-color: #fffbe7;
+  border: #5c6652 8px solid;
+  border-radius: 58px;
+  padding: 11px;
+  font-size: 32px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 100px auto 150px auto;
+}
+.start_btn a:hover {
+  background-image: url(../img/button_hover_bg.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 243px;
+  color: #fffbe7;
+}

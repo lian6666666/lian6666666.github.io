@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+TC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Noto Serif TC", serif;
+  font-weight: bolder;
+  background-image: url(../img/2_0_bg_img.png);
+  background-size: 100vw;
+  background-repeat: repeat-y;
+  background-position: center;
+}
+.comments {
+  margin: 100px auto;
+}
+.comments_title {
+  margin: 100px auto;
+}
+.comments_title {
+  display: block;
+  width: 1320px;
+  height: 92px;
+  background-image: url(../img/1_4_title_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+  text-align: center;
+  padding: 12px 406px 18px 432px;
+  font-size: 32pt;
+  letter-spacing: 22pt;
+  color: #fffbe7;
+}
+
+.comments_text {
+  font-size: 40pt;
+  font-weight: bolder;
+  text-align: center;
+  margin: 100px auto;
+  color: #5c6652;
+}
+.yl_card_content {
+  width: 1194px;
+  height: 1052px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px auto;
+}
+.yl_card_front {
+  width: 25%;
+  height: 33%;
+  padding: 22px 48px;
+}
+
+.yl_card_front img {
+  width: 202px;
+  height: 284px;
+  border-radius: 4px;
+}
+
+.yl_card_front img:hover {
+  width: 222px;
+  height: 312px;
+}
