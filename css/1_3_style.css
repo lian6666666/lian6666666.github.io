@@ -7,66 +7,79 @@ body {
   background-size: 100vw;
   background-repeat: repeat-y;
   background-position: center;
-  height: 1562px;
 }
 .main_p {
-  margin: 100px auto 50px auto;
+  margin: 75px auto 75px auto;
   display: block;
   text-align: center;
-  font-size: 32pt;
+  font-size: 20pt;
   width: 100vw;
-  height: 300px;
-  padding: 40px;
   color: #5c6652;
 }
 .p_text {
-  margin: 40px 0;
+  margin: 10px 0;
 }
-.yl_game {
-  margin: auto;
-  width: 874px;
-  height: 709px;
+.grid {
+  margin: 25px auto;
+  width: 615px;
+  height: 484px;
   display: flex;
   flex-wrap: wrap;
 }
-.yl_card {
-  width: 33%;
-  height: 50%;
-  padding: 17px 27px;
+
+.card {
+  width: 155px;
+  height: 212px;
+  margin: 15px 25px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  animation: opzition 100ms;
+  animation-fill-mode: forwards;
 }
-.yl_card img {
-  border-radius: 20px;
-  width: 233px;
-  height: 319px;
-  opacity: 50%;
+.selected {
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transition: 1s ease;
 }
-.yl_card img:hover {
-  opacity: 100%;
+.back,
+.front {
+  position: absolute;
+  backface-visibility: hidden;
+  width: 155px;
+  height: 212px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
+
 .final_btn {
-  width: 572px;
-  height: 88px;
+  width: 381px;
+  height: 58px;
   display: flex;
   flex-wrap: wrap;
-  margin: 0px auto 250px auto;
+  margin: 75px auto 75px auto;
 }
 .start_btn {
   width: 50%;
+  padding: 0 19px;
 }
 .start_btn a {
   color: #5c6652;
   text-decoration: none;
   display: block;
-  width: 243px;
-  height: 88px;
+  width: 162px;
+  height: 58px;
   background-color: #fffbe7;
-  border: #5c6652 8px solid;
+  border: #5c6652 6px solid;
   border-radius: 58px;
-  padding: 11px;
-  font-size: 32px;
+  font-weight: bolder;
+  padding: 7px;
+  font-size: 20px;
   text-align: center;
   vertical-align: middle;
-  margin: 100px auto 150px auto;
 }
 .start_btn a:hover {
   background-image: url(../img/button_hover_bg.png);

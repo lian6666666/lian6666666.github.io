@@ -7,20 +7,18 @@ body {
   background-size: 100vw;
   background-repeat: repeat-y;
   background-position: center;
-  height: 1562px;
+  width: 100vw;
 }
 .main_p {
-  margin: 100px auto;
+  margin: 75px auto 75px auto;
   display: block;
   text-align: center;
-  font-size: 32pt;
+  font-size: 20pt;
   width: 100vw;
-  height: 300px;
-  padding: 40px;
   color: #5c6652;
 }
 .p_text {
-  margin: 40px 0;
+  margin: 10px 0;
 }
 .middle_yl {
   background-image: url(../img/1_0_middle_yl.png);
@@ -29,27 +27,32 @@ body {
   display: block;
   width: 100vw;
   height: 134px;
-  margin: 300px auto 100px auto;
+  margin: 75px auto 75px auto;
+}
+.start_btn {
+  width: 162px;
+  height: 58px;
+  margin: 75px auto 75px auto;
 }
 .start_btn a {
   color: #5c6652;
   text-decoration: none;
   display: block;
-  width: 366px;
-  height: 116px;
+  width: 162px;
+  height: 58px;
   background-color: #fffbe7;
-  border: #5c6652 8px solid;
+  border: #5c6652 6px solid;
   border-radius: 58px;
-  padding: 25px;
-  font-size: 32px;
+  font-weight: bolder;
+  padding: 7px;
+  font-size: 20px;
   text-align: center;
   vertical-align: middle;
-  margin: 200px auto 150px auto;
 }
 .start_btn a:hover {
   background-image: url(../img/button_hover_bg.png);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 366px;
+  background-size: 243px;
   color: #fffbe7;
 }

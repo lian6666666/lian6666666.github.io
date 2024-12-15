@@ -18,9 +18,9 @@
   <body>
     <nav class="navbar navbar-expand-lg" style="background-color: #5c6652">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand" href="index.html"
           ><img
-            style="width: 341px; height: 56px"
+            style="width: 227px; height: 37px"
             class="container"
             src="./img/1_0_nav_logo.png"
         /></a>
@@ -28,7 +28,7 @@
           class="collapse navbar-collapse justify-content-end"
           id="navbarNav"
         >
-          <ul class="navbar-nav" style="font-size: 24pt">
+          <ul class="navbar-nav" style="font-size: 18pt">
             <li class="nav-item" style="margin: 0 30px">
               <a
                 class="nav-link active"
@@ -60,33 +60,28 @@
         </div>
       </div>
     </nav>
-    <div class="main_p">
-      <div class="p_text">請在心中想像你餓扁的感覺，</div>
-      <div class="p_text">選出可口的一張牌作為你的第一餐。</div>
-    </div>
+    <div id="ptext"></div>
+    <div id="ptext1"></div>
+    <div id="foot"></div>
+    <div id="resultcomments"></div>
     <div class="yl_game">
-      <div class="yl_card">
-        <img class="yl_card_front" src="./img/1_1_card_front.png" alt="" />
-      </div>
-      <div class="yl_card">
-        <img class="yl_card_front" src="./img/1_1_card_front.png" alt="" />
-      </div>
-      <div class="yl_card">
-        <img class="yl_card_front" src="./img/1_1_card_front.png" alt="" />
-      </div>
-      <div class="yl_card">
-        <img class="yl_card_front" src="./img/1_1_card_front.png" alt="" />
-      </div>
-      <div class="yl_card">
-        <img class="yl_card_front" src="./img/1_1_card_front.png" alt="" />
-      </div>
-      <div class="yl_card">
-        <img class="yl_card_front" src="./img/1_1_card_front.png" alt="" />
-      </div>
+      <div id="yl_card1"></div>
+      <div id="yl_card2"></div>
+      <div id="yl_card3"></div>
     </div>
-    <div class="start_btn">
-      <a href="./1_2.html">下一步</a>
-    </div>
+    <div
+      id="yl_resultid_card1"
+      class="yl_result_card yl_result_card1 container row"
+    ></div>
+    <div
+      id="yl_resultid_card2"
+      class="yl_result_card yl_result_card1 container row"
+    ></div>
+    <div
+      id="yl_resultid_card3"
+      class="yl_result_card yl_result_card1 container row"
+    ></div>
+    <div id="finalbtn"></div>
     <div class="footer">
       <div class="footer_container container">
         <div class="footer_icons">
@@ -108,6 +103,7 @@
         </div>
       </div>
     </div>
+    <script src="./js/card_game.js"></script>
     <script src="./js/bootstrap.js"></script>
   </body>
 </html>

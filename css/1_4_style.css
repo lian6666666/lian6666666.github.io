@@ -7,31 +7,31 @@ body {
   background-size: 100vw;
   background-repeat: repeat-y;
   background-position: center;
+  width: 100vw;
+  position: relative;
 }
 .main_p {
-  margin: 100px auto;
+  margin: 75px auto 75px auto;
   display: block;
   text-align: center;
-  font-size: 32pt;
+  font-size: 20pt;
   width: 100vw;
-  height: 300px;
-  padding: 40px;
   color: #5c6652;
 }
 .p_text {
-  margin: 40px 0;
+  margin: 10px 0;
 }
 .middle_foot {
   display: block;
-  width: 184px;
-  height: 446px;
-  margin: auto;
+  width: 122px;
+  height: 0px;
+  margin: 75px auto;
   position: relative;
 }
 .foot {
   display: block;
-  width: 70px;
-  height: 78px;
+  width: 46px;
+  height: 52px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -42,21 +42,21 @@ body {
   top: 0;
   left: 0;
   opacity: 0%;
-  animation: opcitychange 3s infinite;
+  animation: opcitychange 3s 2;
 }
 .foot2 {
   background-image: url(../img/1_4_middle_foot2.png);
   top: 200px;
   left: 114px;
   opacity: 0%;
-  animation: opcitychange2 3s infinite;
+  animation: opcitychange2 3s 2;
 }
 .foot3 {
   background-image: url(../img/1_4_middle_foot3.png);
   top: 400px;
   left: 0;
   opacity: 0%;
-  animation: opcitychange3 3s infinite;
+  animation: opcitychange3 3s 2;
 }
 @keyframes opcitychange {
   0% {
@@ -112,51 +112,55 @@ body {
 }
 .yl_result_card {
   width: 1320px;
-  height: 500px;
+  height: 333px;
   display: flex;
   flex-wrap: wrap;
-  margin: 200px auto;
+  margin: 150px auto;
 }
 .yl_result_card_left {
   position: relative;
   padding: 5px;
 }
-.yl_result_card_left img {
+.yl_result_card_left_img {
   border-radius: 20px;
   position: absolute;
   top: 80px;
-  width: 318px;
-  height: 447px;
+  width: 212px;
+  height: 298px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .yl_result_card_left p {
   display: block;
   text-align: center;
-  width: 136px;
-  height: 132px;
-  font-size: 30pt;
+  width: 90px;
+  height: 88px;
+  font-size: 16pt;
   font-weight: bolder;
-  letter-spacing: 5px;
+  line-height: 32pt;
+  letter-spacing: 3px;
   color: #fffbe7;
   background-color: #5c6652;
-  border-radius: 20px 20px 0 0;
+  border-radius: 14px 14px 0 0;
 }
 .food_title {
   font-weight: bold;
-  font-size: 32pt;
+  font-size: 24pt;
   color: #5c6652;
 }
 .food_text {
-  font-size: 24pt;
+  font-size: 20pt;
   color: #5c6652;
   font-weight: lighter;
 }
 .food_title1 {
-  margin: 0 30px 0 0;
-  font-size: 40pt;
+  margin: 0 20px 0 0;
+  font-size: 24pt;
   color: #5c6652;
 }
 .food_type p {
-  font-size: 24pt;
+  font-size: 20pt;
   color: #5c6652;
 }
 
@@ -169,22 +173,34 @@ body {
 .food_type {
   margin: 0 0 73px 0;
 }
+.comments {
+  animation: opcitychange4 6.3s 1;
+}
+.yl_result_card1 {
+  animation: opcitychange4 6.6s 1;
+}
+.yl_result_card2 {
+  animation: opcitychange4 6.9s 1;
+}
+.yl_result_card3 {
+  animation: opcitychange4 7.2s 1;
+}
 .comments_title {
   margin: 100px auto;
 }
 .comments_title {
   display: block;
-  width: 1320px;
-  height: 92px;
+  width: 880px;
+  height: 61px;
   background-image: url(../img/1_4_title_bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   margin: auto;
   text-align: center;
-  padding: 12px 406px 18px 432px;
-  font-size: 32pt;
-  letter-spacing: 22pt;
+  padding: 7px 270px 11px 288px;
+  font-size: 20pt;
+  letter-spacing: 15pt;
   color: #fffbe7;
 }
 
@@ -197,29 +213,30 @@ body {
 }
 
 .final_btn {
-  width: 974px;
-  height: 88px;
+  width: 649px;
+  height: 58px;
   display: flex;
   flex-wrap: wrap;
-  margin: 0px auto 300px auto;
+  margin: 150px auto 150px auto;
 }
 .start_btn {
   width: 33%;
+  padding: 0 19px;
 }
 .start_btn a {
   color: #5c6652;
   text-decoration: none;
   display: block;
-  width: 243px;
-  height: 88px;
+  width: 162px;
+  height: 58px;
   background-color: #fffbe7;
-  border: #5c6652 8px solid;
+  border: #5c6652 6px solid;
   border-radius: 58px;
-  padding: 11px;
-  font-size: 32px;
+  font-weight: bolder;
+  padding: 7px;
+  font-size: 20px;
   text-align: center;
   vertical-align: middle;
-  margin: 100px auto 150px auto;
 }
 .start_btn a:hover {
   background-image: url(../img/button_hover_bg.png);
@@ -227,4 +244,16 @@ body {
   background-repeat: no-repeat;
   background-size: 243px;
   color: #fffbe7;
+}
+
+@keyframes opcitychange4 {
+  0% {
+    opacity: 0%;
+  }
+  95% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }

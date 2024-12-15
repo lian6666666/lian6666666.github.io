@@ -7,6 +7,7 @@ body {
   background-size: 100vw;
   background-repeat: repeat-y;
   background-position: center;
+  width: 100vw;
 }
 .comments {
   margin: 100px auto;
@@ -16,30 +17,32 @@ body {
 }
 .comments_title {
   display: block;
-  width: 1320px;
-  height: 92px;
+  width: 880px;
+  height: 61px;
   background-image: url(../img/1_4_title_bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   margin: auto;
   text-align: center;
-  padding: 12px 406px 18px 432px;
-  font-size: 32pt;
-  letter-spacing: 22pt;
+  padding: 9px 270px 9px 288px;
+  font-size: 20pt;
+  letter-spacing: 15pt;
   color: #fffbe7;
 }
 
 .comments_text {
-  font-size: 40pt;
+  width: 1320px;
+  font-size: 32pt;
   font-weight: bolder;
   text-align: center;
   margin: 100px auto;
   color: #5c6652;
 }
+
 .yl_card_content {
-  width: 1194px;
-  height: 1052px;
+  width: 796px;
+  height: 701px;
   display: flex;
   flex-wrap: wrap;
   margin: 100px auto;
@@ -47,16 +50,16 @@ body {
 .yl_card_front {
   width: 25%;
   height: 33%;
-  padding: 22px 48px;
+  padding: 14px 32px;
 }
 
 .yl_card_front img {
-  width: 202px;
-  height: 284px;
+  width: 134px;
+  height: 189px;
   border-radius: 4px;
 }
 
 .yl_card_front img:hover {
-  width: 222px;
-  height: 312px;
+  width: 134px;
+  height: 189px;
 }

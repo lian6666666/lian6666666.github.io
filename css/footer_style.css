@@ -2,10 +2,10 @@
 
 .footer {
   font-family: "Noto Serif", serif;
-  font-weight: 800;
+  font-weight: 500;
   display: inline-block;
   width: 100vw;
-  height: 145px;
+  height: 96px;
   background-image: url(../img/1_0_footer_bg.png);
   background-position: center;
   background-repeat: repeat-x;
@@ -14,46 +14,52 @@
 .footer_container {
   position: relative;
   width: 1320px;
-  height: 145px;
+  height: 96px;
   background-color: #5c6652;
 }
 .footer_icons {
   display: inline-block;
   vertical-align: middle;
 }
+.footer_icons img {
+  width: 35px;
+  height: 35px;
+}
 .footer_icon1 {
   position: absolute;
-  left: 48px;
-  top: 48px;
-  width: 48px;
-  height: 48px;
+  left: 32px;
+  top: 34px;
+  width: 32px;
+  height: 32px;
 }
 .footer_icon2 {
   position: absolute;
-  left: 156px;
-  top: 48px;
-  width: 48px;
-  height: 48px;
+  left: 104px;
+  top: 34px;
+  width: 32px;
+  height: 32px;
 }
 .footer_icon3 {
   position: absolute;
-  left: 264px;
-  top: 48px;
-  width: 48px;
-  height: 48px;
+  left: 176px;
+  top: 34px;
+  width: 32px;
+  height: 32px;
 }
 .footer_icon4 {
   position: absolute;
-  left: 372px;
-  top: 48px;
-  width: 48px;
-  height: 48px;
+  left: 248px;
+  top: 34px;
+  width: 32px;
+  height: 32px;
 }
 .footer_copyright {
+  display: block;
+  width: 460px;
   vertical-align: middle;
   position: relative;
-  top: 34px;
-  left: calc(1320px - 600px);
+  top: 15px;
+  left: calc(1320px - 502px);
   color: #fffbe7;
-  font-size: 24px;
+  font-size: 20px;
 }

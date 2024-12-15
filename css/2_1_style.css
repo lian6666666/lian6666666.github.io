@@ -7,13 +7,14 @@ body {
   background-size: 100vw;
   background-repeat: repeat-y;
   background-position: center;
+  width: 100vw;
 }
 .yl_result_card {
   width: 1320px;
-  height: 763px;
+  height: 508px;
   display: flex;
   flex-wrap: wrap;
-  margin: 200px auto;
+  margin: 150px auto;
 }
 .yl_result_card_left {
   position: relative;
@@ -23,28 +24,29 @@ body {
   border-radius: 20px;
   position: absolute;
   top: 0px;
-  width: 542px;
-  height: 763px;
+  left: 112px;
+  width: 361px;
+  height: 508px;
 }
 
 .food_title {
   font-weight: bold;
-  font-size: 32pt;
+  font-size: 20pt;
   color: #5c6652;
   text-align: left;
 }
 .food_text {
-  font-size: 24pt;
+  font-size: 18pt;
   color: #5c6652;
   font-weight: lighter;
 }
 .food_title1 {
-  margin: 0 30px 0 0;
-  font-size: 40pt;
+  margin: 0 20px 0 0;
+  font-size: 24pt;
   color: #5c6652;
 }
 .food_type p {
-  font-size: 24pt;
+  font-size: 18pt;
   color: #5c6652;
 }
 
@@ -57,61 +59,43 @@ body {
 
 .food_type_introduce {
   display: block;
-  height: 763px;
-  margin-top: 210px;
+  height: 508px;
+  margin-top: 140px;
   vertical-align: bottom;
-  line-height: 72px;
+  line-height: 32px;
 }
 .food_type {
-  margin: 0 0 73px 0;
-  text-align: center;
+  margin: 0 0 10px 0;
+  text-align: left;
 }
 .comments_title {
   margin: 100px auto;
 }
 .comments_title {
   display: block;
-  width: 1320px;
-  height: 92px;
+  width: 880px;
+  height: 61px;
   background-image: url(../img/1_4_title_bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   margin: auto;
   text-align: center;
-  padding: 12px 406px 18px 432px;
-  font-size: 32pt;
-  letter-spacing: 22pt;
-  color: #fffbe7;
-}
-
-.comments_title {
-  margin: 100px auto;
-}
-.comments_title {
-  display: block;
-  width: 1320px;
-  height: 92px;
-  background-image: url(../img/1_4_title_bg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin: auto;
-  text-align: center;
-  padding: 12px 406px 18px 432px;
-  font-size: 32pt;
-  letter-spacing: 22pt;
+  padding: 9px 270px 9px 288px;
+  font-size: 20pt;
+  letter-spacing: 15pt;
   color: #fffbe7;
 }
 
 .comments_text {
-  font-size: 24pt;
-  letter-spacing: 8pt;
-  font-weight: lighter;
+  width: 1320px;
+  font-size: 32pt;
+  font-weight: bolder;
   text-align: center;
   margin: 100px auto;
-  color: #fffbe7;
+  color: #5c6652;
 }
+
 .yl_more {
   margin: 100px auto 100px auto;
 }
