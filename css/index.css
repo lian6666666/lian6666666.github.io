@@ -4,38 +4,79 @@ body {
   font-family: "Noto Serif TC", serif;
   font-weight: bolder;
   background-color: #5c6652;
-  background-size: 100vw;
-  background-repeat: repeat-y;
-  background-position: center;
-  height: 100vh;
-  width: 100vw;
-}
-.logo {
-  margin: auto;
-  width: 515px;
-  height: 900;
+  height: 1080px;
+  overflow: hidden;
   position: relative;
 }
+.startevent {
+  width: 400px;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+  vertical-align: middle;
+  z-index: 100000;
+}
+.startimage {
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  background-image: url(../img/index_logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: calc(50vh - 250px);
+}
 
+.start_btn {
+  z-index: 2;
+  width: 162px;
+  height: 58px;
+  margin: auto;
+  padding: 19px;
+  vertical-align: middle;
+  position: absolute;
+  top: calc(100vh - 158px);
+  left: calc(50% - 112px);
+}
+.ylhead {
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  padding: 19px;
+  vertical-align: middle;
+  position: absolute;
+  top: calc(100vh - 208px);
+  left: calc(50% - 50px);
+  background-image: url(../img/3_0_yl.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .start_btn a {
   color: #fffbe7;
+  width: 162px;
+  height: 58px;
   text-decoration: none;
   display: block;
-  width: 366px;
-  height: 116px;
   background-color: #5c6652;
-  border: #fffbe7 8px solid;
+  background-position: center;
+  border: #fffbe7 6px solid;
   border-radius: 58px;
-  padding: 25px;
-  font-size: 32px;
+  font-weight: bolder;
+  padding: 0px;
+  font-size: 20px;
+  line-height: 55px;
   text-align: center;
-  vertical-align: middle;
-  margin: 100px auto 150px auto;
 }
 .start_btn a:hover {
   background-image: url(../img/button_hover_bg.png);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 366px;
+  background-size: 243px;
   color: #fffbe7;
+}
+.hide {
+  display: none;
 }
