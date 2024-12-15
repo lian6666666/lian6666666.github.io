@@ -19,7 +19,7 @@ var cards2 = [
     foodcomments: "免錢的湯必須裝爆，好喝。",
   },
   {
-    point1: 1,
+    point1: 2,
     img: "yl1card3",
     title: "大亨堡",
     type: "三起司熱狗、美式原味熱狗",
@@ -111,10 +111,7 @@ for (var i = 1; i <= 6; i++) {
   thirdmeal.push(result2);
 }
 var animatetime = 1;
-/*alert(mealresult);
-alert(firstmeal);
-alert(secondmeal);
-alert(thirdmeal);*/
+
 var ptext = document.getElementById("ptext");
 var mainp = document.createElement("div");
 mainp.setAttribute("class", "main_p");
@@ -295,26 +292,26 @@ var finalbtn = document.createElement("div");
 finalbtn.classList.add("final_btn");
 final1.appendChild(finalbtn);
 var start_btn1 = document.createElement("div");
-var start_btn2 = document.createElement("div");
+//var start_btn2 = document.createElement("div");
 var start_btn3 = document.createElement("div");
 finalbtn.appendChild(start_btn1);
-finalbtn.appendChild(start_btn2);
+//finalbtn.appendChild(start_btn2);
 finalbtn.appendChild(start_btn3);
 final1.classList.add("hide");
 start_btn1.classList.add("start_btn");
-start_btn2.classList.add("start_btn");
+//start_btn2.classList.add("start_btn");
 start_btn3.classList.add("start_btn");
 var start_btn_a1 = document.createElement("a");
-var start_btn_a2 = document.createElement("a");
+//var start_btn_a2 = document.createElement("a");
 var start_btn_a3 = document.createElement("a");
 start_btn_a1.innerText = ` 重新占卜`;
 start_btn_a1.href = `./1_1.html`;
-start_btn_a2.innerText = `分享結果 `;
-start_btn_a2.href = `#`;
+//start_btn_a2.innerText = `分享結果 `;
+//start_btn_a2.href = `#`;
 start_btn_a3.innerText = `查看圖鑑 `;
 start_btn_a3.href = `./2_0.html`;
 start_btn1.appendChild(start_btn_a1);
-start_btn2.appendChild(start_btn_a2);
+//start_btn2.appendChild(start_btn_a2);
 start_btn3.appendChild(start_btn_a3);
 
 var game1 = document.getElementById("yl_card1");
@@ -327,10 +324,9 @@ game1.appendChild(grid);
 firstmeal.forEach((item) => {
   var card = document.createElement("div");
   card.classList.add("card");
-  card.dataset.name = item.name;
-  card.style.backgroundImage = `url(./img/${item.img}.png)`;
   const front = document.createElement("div");
   front.classList.add("front");
+  front.style.backgroundImage = `url(./img/${item.img}.png)`;
   const back = document.createElement("div");
   back.classList.add("back");
   back.style.backgroundImage = `url(./img/1_1_card_front.png)`;
@@ -349,10 +345,9 @@ game2.appendChild(grid);
 secondmeal.forEach((item) => {
   var card = document.createElement("div");
   card.classList.add("card");
-  card.dataset.name = item.name;
-  card.style.backgroundImage = `url(./img/${item.img}.png)`;
   const front = document.createElement("div");
   front.classList.add("front");
+  front.style.backgroundImage = `url(./img/${item.img}.png)`;
   const back = document.createElement("div");
   back.classList.add("back");
   back.style.backgroundImage = `url(./img/1_2_card_front.png)`;
@@ -371,10 +366,9 @@ game3.appendChild(grid);
 thirdmeal.forEach((item) => {
   var card = document.createElement("div");
   card.classList.add("card");
-  card.dataset.name = item.name;
-  card.style.backgroundImage = `url(./img/${item.img}.png)`;
   const front = document.createElement("div");
   front.classList.add("front");
+  front.style.backgroundImage = `url(./img/${item.img}.png)`;
   const back = document.createElement("div");
   back.classList.add("back");
   back.style.backgroundImage = `url(./img/1_3_card_front.png)`;
@@ -396,7 +390,18 @@ function clicktime() {
     }
   });
 }
-
+document.getElementById("yl_card1").animate(
+  [
+    // keyframes
+    { transform: "translateX(-2000px)" },
+    { transform: "translateX(0px)" },
+  ],
+  {
+    // timing options
+    duration: 1000,
+    iterations: 1,
+  }
+);
 function animationtime() {
   grid.addEventListener("animationend", () => {
     animatetime++;
@@ -406,12 +411,12 @@ function animationtime() {
       document.getElementById("yl_card2").animate(
         [
           // keyframes
-          { transform: "translateX(-800px)" },
+          { transform: "translateX(-2000px)" },
           { transform: "translateX(0px)" },
         ],
         {
           // timing options
-          duration: 500,
+          duration: 1000,
           iterations: 1,
         }
       );
@@ -425,12 +430,12 @@ function animationtime() {
       document.getElementById("yl_card3").animate(
         [
           // keyframes
-          { transform: "translateX(-800px)" },
+          { transform: "translateX(-2000px)" },
           { transform: "translateX(0px)" },
         ],
         {
           // timing options
-          duration: 500,
+          duration: 1000,
           iterations: 1,
         }
       );

@@ -56,9 +56,8 @@
 .footer_copyright {
   display: block;
   width: 460px;
-  vertical-align: middle;
   position: relative;
-  top: 15px;
+  top: 35px;
   left: calc(1320px - 502px);
   color: #fffbe7;
   font-size: 20px;

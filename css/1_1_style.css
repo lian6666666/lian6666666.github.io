@@ -276,14 +276,14 @@ body {
 }
 
 .final_btn {
-  width: 649px;
+  width: 381px;
   height: 58px;
   display: flex;
   flex-wrap: wrap;
-  margin: 150px auto 150px auto;
+  margin: 75px auto 75px auto;
 }
 .start_btn {
-  width: 33%;
+  width: 50%;
   padding: 0 19px;
 }
 .start_btn a {
@@ -308,6 +308,11 @@ body {
   background-size: 243px;
   color: #fffbe7;
 }
+
+.hide2 {
+  opacity: 0%;
+}
+
 .comments {
   animation: opcitychange4 0.3s ease-in;
 }
