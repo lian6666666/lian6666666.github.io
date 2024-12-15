@@ -9,6 +9,23 @@ body {
   background-position: center;
   width: 100vw;
 }
+.black:hover {
+  opacity: 100%;
+}
+.black {
+  opacity: 0%;
+  text-align: center;
+  color: #fffbe7;
+  letter-spacing: 5px;
+  padding: 0px 54px;
+  z-index: 50;
+  position: absolute;
+  backface-visibility: hidden;
+  width: 134px;
+  height: 189px;
+  background-color: rgba(0, 0, 0, 25%);
+  border-radius: 10px;
+}
 .comments {
   margin: 100px auto;
 }
@@ -48,9 +65,11 @@ body {
   margin: 100px auto;
 }
 .yl_card_front {
+  writing-mode: vertical-lr;
   width: 25%;
   height: 33%;
   padding: 14px 32px;
+  position: relative;
 }
 
 .yl_card_front img {
