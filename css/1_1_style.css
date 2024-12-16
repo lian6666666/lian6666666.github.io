@@ -263,6 +263,9 @@ body {
   transform-style: preserve-3d;
   transition: 1s ease;
 }
+.back {
+  z-index: 100s;
+}
 .back,
 .front {
   position: absolute;

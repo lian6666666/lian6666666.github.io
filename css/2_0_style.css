@@ -13,6 +13,8 @@ body {
   opacity: 100%;
 }
 .black {
+  top: 0px;
+  left: 0px;
   opacity: 0%;
   text-align: center;
   color: #fffbe7;
@@ -73,6 +75,9 @@ body {
 }
 
 .yl_card_front img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
   width: 134px;
   height: 189px;
   border-radius: 4px;
